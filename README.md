@@ -1,0 +1,4 @@
+# TODO:
+
+- Add pagination
+- DarkMode
