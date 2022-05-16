@@ -4,7 +4,6 @@ import HomePostsList from "./homePostsList";
 
 const Card = ({ posts }: { posts: any }) => {
   const [loading, setLoading] = useState(false);
-  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     setLoading(true);

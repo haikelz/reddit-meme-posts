@@ -1,10 +1,7 @@
 import Image from "next/image";
-import { useState } from "react";
 import SearchPostsList from "./searchPostsList";
 
 const SearchCard = ({ post }: { post: any }) => {
-  const [isLoading, setIsLoading] = useState(true);
-
   return (
     <>
       {post?.length >= 0 ? (
@@ -16,8 +13,8 @@ const SearchCard = ({ post }: { post: any }) => {
           <Image
             src="/img/notFound.svg"
             alt="Not Found"
-            width="100px"
-            height="100px"
+            width="300px"
+            height="300px"
           />
           <h1 className="font-semibold text-2xl mt-4">
             Subreddit yang anda cari tidak ditemukan

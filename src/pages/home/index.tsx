@@ -9,7 +9,7 @@ const Home = () => {
         <title>Reddit Posts</title>
       </Head>
       <section className="flex relative flex-col justify-center items-center">
-        <h1 className="text-4xl font-bold text-[#03045E] text-center">
+        <h1 className="text-4xl md:text-5xl font-bold text-[#03045E] text-center">
           Reddit <span className="text-[#00B4D8]">Posts</span>
         </h1>
         <HomeAPI />

@@ -5,6 +5,7 @@ import Image from "next/image";
 
 const SearchPostsList = ({ post }: { post: any }) => {
   const [isLoading, setIsLoading] = useState(true);
+
   return (
     <>
       {post.map((eachPost: any, index: number) => (
