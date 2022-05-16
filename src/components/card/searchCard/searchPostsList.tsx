@@ -10,12 +10,14 @@ const SearchPostsList = ({ post }: { post: any }) => {
     <>
       {post.map((eachPost: any, index: number) => (
         <a href={eachPost.postLink} key={index}>
-          <div className="flex flex-col rounded-lg p-3 group overflow-hidden bg-white shadow-lg">
-            <h1 className="text-2xl font-bold group-hover:text-blue-500 duration-300 transition-all">
+          <div className="relative flex flex-col rounded-lg p-3 group overflow-hidden bg-white shadow-lg">
+            <h1 className="mb-2 text-2xl font-bold group-hover:text-blue-500 duration-300 transition-all">
               r/{eachPost.subreddit}
             </h1>
             <Image
-              src={eachPost.preview[0]}
+              src={
+                eachPost.url ? eachPost.url : "https://via.placeholder.com/400"
+              }
               alt={`Image ${index + 1}`}
               width="300px"
               height="250px"
@@ -31,7 +33,7 @@ const SearchPostsList = ({ post }: { post: any }) => {
             <p className="text-base font-medium mt-1">{eachPost.title}</p>
             <div className="flex mt-2 justify-start items-center">
               <FaUserCircle className="mr-1" />
-              <p className="ml-1 text-sm font-medium">{eachPost.author}</p>
+              <p className="ml-1 text-sm font-medium">by {eachPost.author}</p>
             </div>
           </div>
         </a>

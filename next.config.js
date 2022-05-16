@@ -6,6 +6,7 @@ const nextConfig = {
       "external-preview.redd.it",
       "preview.redd.it",
       "i.redd.it",
+      "i.imgur.com",
       "imgur.com",
     ],
   },

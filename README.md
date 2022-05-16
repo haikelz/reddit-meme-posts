@@ -1,4 +1,5 @@
+Simple Website to get memes from Reddit
+
 # TODO:
 
-- Add pagination
-- DarkMode
+- Add DarkMode 

@@ -11,11 +11,13 @@ const HomePostsList = ({ posts }: { posts: any }) => {
       {posts.map((eachPost: any, index: number) => (
         <a href={eachPost.postLink} key={index}>
           <div className="relative flex flex-col rounded-lg p-3 group overflow-hidden bg-white shadow-lg">
-            <h1 className="text-2xl font-bold group-hover:text-blue-500 duration-300 transition-all">
+            <h1 className="mb-2 text-2xl font-bold group-hover:text-blue-500 duration-300 transition-all">
               r/{eachPost.subreddit}
             </h1>
             <Image
-              src={eachPost.preview[0]}
+              src={
+                eachPost.url ? eachPost.url : "https://via.placeholder.com/400"
+              }
               alt={`Image ${index + 1}`}
               width="300px"
               height="250px"
