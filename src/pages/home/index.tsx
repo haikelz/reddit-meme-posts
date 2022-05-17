@@ -1,5 +1,5 @@
 import Head from "next/head";
-import HomeAPI from "../../api/homeAPI";
+import HomeAPI from "../api/homeAPI";
 import SearchButton from "../../components/searchButton/searchButton";
 
 const Home = () => {

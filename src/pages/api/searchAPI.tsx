@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import SearchBar from "../components/searchBar/searchBar";
-import SearchCard from "../components/card/searchCard/searchCard";
-import Pagination from "../components/pagination/pagination";
+import SearchBar from "../../components/searchBar/searchBar";
+import SearchCard from "../../components/card/searchCard/searchCard";
+import Pagination from "../../components/pagination/pagination";
 
 const SearchAPI = () => {
   const [search, setSearch] = useState("");

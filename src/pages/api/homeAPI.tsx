@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import Card from "../components/card/homeCard/homeCard";
-import Pagination from "../components/pagination/pagination";
+import Card from "../../components/card/homeCard/homeCard";
+import Pagination from "../../components/pagination/pagination";
 
 const HomeAPI = () => {
   const [posts, setPosts] = useState([]);
