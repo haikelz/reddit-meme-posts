@@ -1,5 +1,7 @@
+# Reddit Meme Posts
+
 Simple Website to get memes from Reddit
 
-# TODO:
+**TODO:**
 
 - Add DarkMode 
