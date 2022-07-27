@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const Error = () => {
+const NotFound = () => {
   return (
     <div className="flex flex-col justify-center items-center text-center">
       <Image
@@ -16,4 +16,4 @@ const Error = () => {
   );
 };
 
-export default Error;
+export default NotFound;
