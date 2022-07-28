@@ -42,7 +42,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Reddit Meme Posts</title>
+        <title>Reddit Posts</title>
       </Head>
       <Layout>
         <h1 className="text-4xl md:text-5xl font-bold text-[#03045E] text-center">
