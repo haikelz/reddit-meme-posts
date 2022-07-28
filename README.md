@@ -12,5 +12,5 @@
 
 ## Run this in your local machine
 
-- Clone this https://github.com/haikelz/reddit-posts.git
+- Clone this repo `git clone https://github.com/haikelz/reddit-posts.git`
 - Type `yarn install && yarn run dev` and see the result in your browser
